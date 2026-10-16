@@ -38,17 +38,21 @@ The project focuses on key e-commerce functionality, including:
 ## Project Structure
 
 ```text
-BuildLab-Demoblaze-QA/
+BuildLab-Demoblaze/
 ├── cypress/
-│   ├── e2e/
-│   │   ├── DB-TC-002-product-details.cy.js
-│   │   ├── DB-TC-015-add-product-to-cart.cy.js
-│   │   └── DB-TC-017-verify-cart-total.cy.js
-│   └── support/
-├── .gitignore
+│   └── e2e/
+│       ├── DB-TC-002-product-details.cy.js
+│       ├── DB-TC-015-add-product-to-cart.cy.js
+│       └── DB-TC-017-verify-cart-total.cy.js
+├── evidence/
+│   ├── DB-TC-002-product-details.png
+│   ├── DB-TC-015-add-to-cart.png
+│   └── DB-TC-017-cart-total.png
 ├── cypress.config.js
 ├── package.json
-└── package-lock.json
+├── package-lock.json
+├── README.md
+└── .gitignore
 ```
 
 ## Getting Started
@@ -86,6 +90,10 @@ Alternatively, run the tests in headless mode:
 ```bash
 npx cypress run
 ```
+
+## Test Evidence
+
+Screenshots showing the successful execution of the three Cypress tests are available in the `evidence/` folder.
 
 ## Project Status
 
