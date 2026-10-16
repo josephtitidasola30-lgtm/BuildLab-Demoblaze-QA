@@ -17,7 +17,7 @@ The project focuses on key e-commerce functionality, including:
 
 - Viewing product details
 - Adding products to the shopping cart
-- Verifying the cart total for a product
+- Verifying the cart total for one product
 
 ## Automated Test Cases
 
@@ -31,7 +31,7 @@ The project focuses on key e-commerce functionality, including:
 
 - Cypress
 - JavaScript
-- Node.js
+- Node.js and npm
 - Git and GitHub
 - Google Docs and Google Sheets for test documentation
 
@@ -97,7 +97,7 @@ Screenshots showing the successful execution of the three Cypress tests are avai
 
 ## Project Status
 
-The initial Cypress automation tests have been created and executed. Manual test documentation and further testing activities are part of the ongoing project.
+The initial three Cypress automated tests have been executed successfully. Manual test documentation and further testing activities are part of the ongoing project.
 
 ## Disclaimer
 
