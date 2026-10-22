@@ -18,6 +18,7 @@ The project focuses on key e-commerce functionality, including:
 - Viewing product details
 - Adding products to the shopping cart
 - Verifying the cart total for one product
+- Removing a product from the shopping cart
 
 ## Automated Test Cases
 
@@ -26,6 +27,7 @@ The project focuses on key e-commerce functionality, including:
 | DB-TC-002 | Open product details |
 | DB-TC-015 | Add product to cart |
 | DB-TC-017 | Verify cart total for one item |
+| DB-TC-019 | Remove an item from the cart |
 
 ## Tools and Technologies
 
@@ -43,11 +45,14 @@ BuildLab-Demoblaze/
 │   └── e2e/
 │       ├── DB-TC-002-product-details.cy.js
 │       ├── DB-TC-015-add-product-to-cart.cy.js
-│       └── DB-TC-017-verify-cart-total.cy.js
+│       ├── DB-TC-017-verify-cart-total.cy.js
+│       └── DB-TC-019-remove-item-from-cart.cy.js
 ├── evidence/
 │   ├── DB-TC-002-product-details.png
 │   ├── DB-TC-015-add-to-cart.png
-│   └── DB-TC-017-cart-total.png
+│   ├── DB-TC-017-cart-total.png
+│   ├── DB-TC-019-remove-item-from-cart.png
+│   └── week2-cypress-suite-report.txt
 ├── cypress.config.js
 ├── package.json
 ├── package-lock.json
@@ -85,19 +90,46 @@ Open the Cypress Test Runner:
 npx cypress open
 ```
 
-Alternatively, run the tests in headless mode:
+Run all Cypress tests in headless mode:
 
 ```bash
 npx cypress run
 ```
 
+To run the four documented test cases specifically:
+
+```bash
+npx cypress run --spec "cypress/e2e/DB-TC-002-product-details.cy.js,cypress/e2e/DB-TC-015-add-product-to-cart.cy.js,cypress/e2e/DB-TC-017-verify-cart-total.cy.js,cypress/e2e/DB-TC-019-remove-item-from-cart.cy.js"
+```
+
 ## Test Evidence
 
-Screenshots showing the successful execution of the three Cypress tests are available in the `evidence/` folder.
+The `evidence/` folder contains screenshots associated with the four automated test cases and the Week 2 Cypress suite execution report.
+
+- `DB-TC-002-product-details.png`
+- `DB-TC-015-add-to-cart.png`
+- `DB-TC-017-cart-total.png`
+- `DB-TC-019-remove-item-from-cart.png`
+- `week2-cypress-suite-report.txt`
+
+## Latest Automation Results
+
+The four documented Cypress test cases were executed together.
+
+| Metric | Result |
+|---|---:|
+| Test cases executed | 4 |
+| Passed | 4 |
+| Failed | 0 |
+| Total reported duration | 46 seconds |
+
+All four spec files passed during the recorded suite execution. Cypress reported no automatically captured screenshots and no video recording for that run.
 
 ## Project Status
 
-The initial three Cypress automated tests have been executed successfully. Manual test documentation and further testing activities are part of the ongoing project.
+The project currently includes four automated Cypress test cases covering product details, adding a product to the cart, verifying the cart total for one item, and removing a product from the cart.
+
+The latest recorded execution completed successfully, with all four tests passing. Manual test documentation and other planned QA activities remain part of the wider project.
 
 ## Disclaimer
 

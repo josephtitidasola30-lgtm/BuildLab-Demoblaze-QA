@@ -1,0 +1,152 @@
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        16.2.0                                                                         │
+  │ Browser:        Electron 146 (headless) (deprecated)                                           │
+  │ Node Version:   v24.15.0 (C:\Program Files\nodejs\node.exe)                                    │
+  │ Specs:          4 found (DB-TC-002-product-details.cy.js, DB-TC-015-add-product-to-cart.cy.js, │
+  │                  DB-TC-017-verify-cart-total.cy.js, DB-TC-019-remove-item-from-cart.cy.js)     │
+  │ Searched:       C:\Users\TITILAYO\BuildLab-Demoblaze\cypress\e2e\DB-TC-002-product-details.cy. │
+  │                 js, C:\Users\TITILAYO\BuildLab-Demoblaze\cypress\e2e\DB-TC-015-add-product-to- │
+  │                 cart.cy.js, C:\Users\TITILAYO\BuildLab-Demoblaze\cypress\e2e\DB-TC-017-verify- │
+  │                 cart-total.cy.js, C:\Users\TITILAYO\BuildLab-Demoblaze\cypress\e2e\DB-TC-019-r │
+  │                 emove-item-from-cart.cy.js                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Warning: The Electron browser is deprecated as a test browser and will be removed in a future version of Cypress.
+
+Switch to Chrome or another installed browser to avoid a breaking change when you upgrade.
+
+Read more about supported browsers: https://on.cypress.io/launching-browsers
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  DB-TC-002-product-details.cy.js                                                 (1 of 4)
+
+
+  DB-TC-002: Open product details
+    √ should display the selected product details (6657ms)
+
+
+  1 passing (12s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     11 seconds                                                                       │
+  │ Spec Ran:     DB-TC-002-product-details.cy.js                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  DB-TC-015-add-product-to-cart.cy.js                                             (2 of 4)
+
+
+  DB-TC-015: Add product to cart
+    √ should allow a user to add a product to the cart (5329ms)
+
+
+  1 passing (8s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     8 seconds                                                                        │
+  │ Spec Ran:     DB-TC-015-add-product-to-cart.cy.js                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  DB-TC-017-verify-cart-total.cy.js                                               (3 of 4)
+
+
+  DB-TC-017: Verify cart total for one item
+    √ should display the correct total for one product (8182ms)
+
+
+  1 passing (12s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     11 seconds                                                                       │
+  │ Spec Ran:     DB-TC-017-verify-cart-total.cy.js                                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  DB-TC-019-remove-item-from-cart.cy.js                                           (4 of 4)
+
+
+  DB-TC-019: Remove an item from the cart
+    √ should remove the selected product from the cart (14040ms)
+
+
+  1 passing (18s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     18 seconds                                                                       │
+  │ Spec Ran:     DB-TC-019-remove-item-from-cart.cy.js                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  DB-TC-002-product-details.cy.js          00:11        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  DB-TC-015-add-product-to-cart.cy.js      00:08        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  DB-TC-017-verify-cart-total.cy.js        00:11        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  DB-TC-019-remove-item-from-cart.cy.      00:18        1        1        -        -        - │
+  │    js                                                                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:50        4        4        -        -        -  
+
